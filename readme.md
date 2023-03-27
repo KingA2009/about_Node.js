@@ -84,23 +84,24 @@ added 57 packages in 12s
   ```
 # 4.2) NPM nima?
 ```
-npm - <br/>Node Package Manager. Bu Node.js uchun paketlar boshqarish uchun yaratilgan uskuna.
+npm - Node Package Manager. Bu Node.js uchun paketlar boshqarish uchun yaratilgan uskuna.
 ```
 
 
+# 4.3)Global va local o`rnatish
+```
+global-Global o'rnatilgan paketlar/qaramliklar tizim katalogida saqlanadi. Bunday bog'liqliklar har qanday node.js ning CLI (Buyruqlar qatori interfeysi) funksiyasida ishlatilishi mumkin.
+local-har qanday pakrt/qaramlikni mahalliy rejimda o'rnatadi.
+```
 
+# 4.4)
+```
+{
+   "name":papka nomi
+      "description": haqida ma`lumot
+      "version":paketning versiya
+      "author": 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtKOdbHk7qew2XJ3JVHdJZjCUnjGJ6nHGHNMu9i3d4&s) -->
+dependencies-bog'liqliklar ro'yxati. NPM paketning node_module papkasida ko'rsatilgan barcha bog'liqliklarni avtomatik ravishda o'rnatadi.
+devDependencies-devolpment larga kerak bo`ladigan dependencies lar
+```
