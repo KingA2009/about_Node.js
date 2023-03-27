@@ -7,8 +7,8 @@ V8 JavaScript Engine da ishlaydi va JavaScript kodini veb-brauzerdan tashqarida 
 
 # 1.2)Node.js xususiyatlari
 ```Node.js
-Buferlash yo'q - Node.js ilovalari hech qachon hech qanday ma'lumotni bufer
-Juda tez – Google Chrome’ning V8 JavaScript dvigatelida yaratilgan Node.js kutubxonasi kodni bajarishda juda tezdir.lamaydi. Ushbu ilovalar shunchaki ma'lumotlarni qismlarga bo'lib chiqaradi.
+Buferlash yo'q - Node.js ilovalari hech qachon hech qanday ma'lumotni bufer 
+Juda tez – Google Chrome’ning V8 JavaScript dvigatelida yaratilgan Node.js kutubxonasi kodni bajarishda juda <br> tezdir.lamaydi. Ushbu ilovalar shunchaki ma'lumotlarni qismlarga bo'lib chiqaradi.
 Asinxron va hodisalarga asoslangan - Node.js kutubxonasining barcha API'lari asinxron, ya'ni bloklanmaydi. Bu aslida Node.js-ga asoslangan server hech qachon API ma'lumotlarini qaytarishini kutmasligini anglatadi. Server qo‘ng‘iroq qilgandan so‘ng keyingi APIga o‘tadi va Events of Node.js bildirishnoma mexanizmi serverga avvalgi API chaqiruvidan javob olishga yordam beradi.
 ```
 
@@ -48,9 +48,9 @@ console.log('Server running at http://127.0.0.1:8081/');
 
  ```
 ## about
-### //http modulini yuklash va qaytarilgan HTTP misolini http o'zgaruvchisiga quyidagi tarzda saqlayapti
-### //yaratilgan http misolidan foydalanib va server misolini yaratish uchun http.createServer() usulini chaqirib va
-### ///keyin uni server misoli bilan bog'langan tinglas usuli yordamida 8081 portga bog'lyapti.
+#### //http modulini yuklash va qaytarilgan HTTP misolini http o'zgaruvchisiga quyidagi tarzda saqlayapti
+#### //yaratilgan http misolidan foydalanib va server misolini yaratish uchun http.createServer() usulini chaqirib va
+#### ///keyin uni server misoli bilan bog'langan tinglas usuli yordamida 8081 portga bog'lyapti.
 
 # 3.2)
 
