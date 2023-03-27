@@ -9,8 +9,7 @@ V8 JavaScript Engine da ishlaydi va JavaScript kodini veb-brauzerdan tashqarida 
 ```Node.js
 Buferlash yo'q - Node.js ilovalari hech qachon hech qanday ma'lumotni bufer 
 Juda tez – Google Chrome’ning V8 JavaScript dvigatelida yaratilgan Node.js kutubxonasi kodni bajarishda juda 
-
- tezdir.lamaydi. Ushbu ilovalar shunchaki ma'lumotlarni qismlarga bo'lib chiqaradi.
+tezdir.lamaydi. Ushbu ilovalar shunchaki ma'lumotlarni qismlarga bo'lib chiqaradi.
 Asinxron va hodisalarga asoslangan - Node.js kutubxonasining barcha API'lari asinxron, ya'ni bloklanmaydi. Bu aslida Node.js-ga asoslangan server hech qachon API ma'lumotlarini qaytarishini kutmasligini anglatadi. Server qo‘ng‘iroq qilgandan so‘ng keyingi APIga o‘tadi va Events of Node.js bildirishnoma mexanizmi serverga avvalgi API chaqiruvidan javob olishga yordam beradi.
 ```
 
