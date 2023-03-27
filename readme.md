@@ -10,12 +10,17 @@ V8 JavaScript Engine da ishlaydi va JavaScript kodini veb-brauzerdan tashqarida 
 Buferlash yo'q - Node.js ilovalari hech qachon hech qanday ma'lumotni bufer 
 Juda tez – Google Chrome’ning V8 JavaScript dvigatelida yaratilgan Node.js kutubxonasi kodni bajarishda juda 
 tezdir.lamaydi. Ushbu ilovalar shunchaki ma'lumotlarni qismlarga bo'lib chiqaradi.
-Asinxron va hodisalarga asoslangan - Node.js kutubxonasining barcha API'lari asinxron, ya'ni bloklanmaydi. Bu aslida Node.js-ga asoslangan server hech qachon API ma'lumotlarini qaytarishini kutmasligini anglatadi. Server qo‘ng‘iroq qilgandan so‘ng keyingi APIga o‘tadi va Events of Node.js bildirishnoma mexanizmi serverga avvalgi API chaqiruvidan javob olishga yordam beradi.
+Asinxron va hodisalarga asoslangan - Node.js kutubxonasining barcha API'lari asinxron, ya'ni bloklanmaydi. 
+Bu aslida Node.js-ga asoslangan server hech qachon API ma'lumotlarini qaytarishini kutmasligini anglatadi. 
+Server qo‘ng‘iroq qilgandan so‘ng keyingi APIga o‘tadi va Events of Node.js bildirishnoma mexanizmi serverga 
+avvalgi API chaqiruvidan javob olishga yordam beradi.
 ```
 
 # 1.3)Node.js-dan kim foydalanadi?
 ```Node.js
-Quyida Node.js dan foydalanayotgan loyihalar, ilovalar va kompaniyalarning toʻliq roʻyxatini oʻz ichiga olgan github wiki-dagi havola. Ushbu ro'yxatga eBay, General Electric, GoDaddy, Microsoft, PayPal, Uber, Wikipins, Yahoo! va Yammer kiradi.
+Quyida Node.js dan foydalanayotgan loyihalar, ilovalar va kompaniyalarning toʻliq roʻyxatini oʻz ichiga olgan 
+github wiki-dagi havola. Ushbu ro'yxatga eBay, General Electric, GoDaddy, Microsoft, PayPal, Uber, Wikipins,
+Yahoo! va Yammer kiradi.
 ```
 
 # 1.4)Node.js-dan qayerda foydalanish kerak?
@@ -54,6 +59,33 @@ console.log('Server running at http://127.0.0.1:8081/');
 #### ///keyin uni server misoli bilan bog'langan tinglas usuli yordamida 8081 portga bog'lyapti.
 
 # 3.2)
+#### screenshotda
+
+
+
+# 3.3) HTTP status code
+```
+HTTP holat kodi - bu brauzer so'roviga javoban server yaratadigan uch xonali raqam. Masalan, 404 kabi.
+```
+
+
+# 3.4)Port-
+```local serverlarni yoquvchi kod to`rt xonali bo`ladi```
+
+
+# 4.1) $ npm install express
+```
+PS C:\Users\777\Desktop\about_Node.js> npm install express
+
+added 57 packages in 12s
+
+7 packages are looking for funding
+  run `npm fund` for details 
+  ```
+# 4.2) NPM nima?
+```
+npm - <br/>Node Package Manager. Bu Node.js uchun paketlar boshqarish uchun yaratilgan uskuna.
+```
 
 
 
